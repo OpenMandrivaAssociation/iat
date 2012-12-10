@@ -39,3 +39,14 @@ install -c -m 644 man/iat.1 %{buildroot}/%{_mandir}/man1/%{name}
 %_bindir/%{name}
 %doc %{_mandir}/man1/%{name}
 %{_docdir}/%{name}
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-2mdv2011.0
++ Revision: 619508
+- the mass rebuild of 2010.0 packages
+
+* Tue Oct 13 2009 Anne Nicolas <ennael@mandriva.org> 0.1.7-1mdv2010.0
++ Revision: 457199
+- import iat
+
