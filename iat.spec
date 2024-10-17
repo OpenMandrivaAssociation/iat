@@ -9,7 +9,7 @@ Release: %{release}
 Summary: Iso9660 Analyzer Tool
 License: GPLv2+
 Group: File tools
-Url: http://iat.berlios.de/
+Url: https://iat.berlios.de/
 Source: iat-%version.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
